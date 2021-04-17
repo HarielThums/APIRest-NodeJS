@@ -4,17 +4,17 @@ const bcrypt = require('bcryptjs')
 const UserSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: true
+        require: true
     },
     email: {
         type: String,
         unique: true,
-        required: true,
+        require: true,
         lowercase: true
     },
     password: {
         type: String,
-        required: true,
+        require: true,
         select: false // pra quando for buscado usuarios, essa informação não vir junto.
     },
     passwordResetToken: { // guardando o token para recuperação de senha
