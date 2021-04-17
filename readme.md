@@ -24,4 +24,11 @@
 - nodemailer-express-handlebars
 - Usado no disparo de email: [Mailtrap](https://mailtrap.io/inboxes)
 
+### Para rodar, será necessário;
+- [x] Node.js
+- [x] MongoDB
+- [x] NPM
 
+- Passo 1: Vá com o terminal até a pasta **`src`** dentro do projeto
+- Passo 2: Digite o seguinte comando para instalar as dependencias: `npm i`
+- Passo 3: Digite o seguinte comando para rodar a aplicação: `node index.js`
