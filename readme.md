@@ -6,6 +6,12 @@
 
 - Criação de usuário
 - Recuperação de senha via email
+  
+## Crud 📑;
+  - Create
+  - Read
+  - Update
+  - Delete
 
 ### Tecnologias :star:;
 - JavaScript
